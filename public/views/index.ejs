@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="./css/style.css" />
+    <title>Tic Tac Toe</title>
+</head>
+
+<body>
+    <h1>TIC TAC TOE</h1>
+
+    <button id="reset" onclick="window.location.reload();">Reset</button>
+    <div id="frame">
+        <div>
+            <button class="num" id="one" onclick="userClick(this)"><span class="innertext"></span></button>
+            <button class="num" id="two" onclick="userClick(this)"><span class="innertext"></span></button>
+            <button class="num" id="three" onclick="userClick(this)"><span class="innertext"></span></button>
+        </div>
+        <div>
+            <button class="num" id="four" onclick="userClick(this)"><span class="innertext"></span></button>
+            <button class="num" id="five" onclick="userClick(this)"><span class="innertext"></span></button>
+            <button class="num" id="six" onclick="userClick(this)"><span class="innertext"></span></button>
+        </div>
+        <div>
+            <button class="num" id="seven" onclick="userClick(this)"><span class="innertext"></span></button>
+            <button class="num" id="eight" onclick="userClick(this)"><span class="innertext"></span></button>
+            <button class="num" id="nine" onclick="userClick(this)"><span class="innertext"></span></button>
+        </div>
+    </div>
+    <div id="display" style="display: none; ">
+        <div id="output" style="border: 5px solid green; height: 100px ; width: 350px; text-align: center;"></div>
+
+
+    </div>
+
+</body>
+<script src="./js/script.js"></script>
+
+</html>
